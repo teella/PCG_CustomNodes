@@ -156,7 +156,7 @@ private:
 	TArray<TObjectPtr<UMaterialInterface>> Materials;
 
 	UPROPERTY(Category = "Config", EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	TEnumAsByte<ETraceTypeQuery> TraceQueryType{ ETraceTypeQuery::TraceTypeQuery7 };
+	TEnumAsByte<ETraceTypeQuery> TraceQueryType{ ETraceTypeQuery::TraceTypeQuery1 };
 
 	UPROPERTY(Category = "Config", EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	TEnumAsByte<EDrawDebugTrace::Type> DrawDebugType{ EDrawDebugTrace::Type::None };
